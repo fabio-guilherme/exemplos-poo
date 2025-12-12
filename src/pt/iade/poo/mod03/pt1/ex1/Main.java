@@ -1,4 +1,4 @@
-package pt.iade.poo.mod03.p1;
+package pt.iade.poo.mod03.pt1.ex1;
 
 public class Main {
 

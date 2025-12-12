@@ -1,4 +1,4 @@
-package pt.iade.poo.mod02.p2;
+package pt.iade.poo.mod02.pt2;
 
 public class ExemploMetodos {
 

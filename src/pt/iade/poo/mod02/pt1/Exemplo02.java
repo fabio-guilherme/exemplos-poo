@@ -1,4 +1,4 @@
-package pt.iade.poo.mod02.p1;
+package pt.iade.poo.mod02.pt1;
 
 public class Exemplo02 {
 

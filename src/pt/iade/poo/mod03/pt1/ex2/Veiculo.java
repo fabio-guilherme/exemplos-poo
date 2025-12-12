@@ -1,4 +1,4 @@
-package pt.iade.poo.mod03.p2;
+package pt.iade.poo.mod03.pt1.ex2;
 
 public class Veiculo {
 	// Atributos
