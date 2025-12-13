@@ -12,12 +12,8 @@ public class TesteVeiculo {
 		Mota minhaMota = new Mota("Honda", "CBR 1000RR");
 		Veiculo meuVeiculo = new Veiculo("Nasa", "foguete");
 		
-		System.out.println("Testando Veículo:");
-		meuVeiculo.acelerar();
-		meuVeiculo.frear();
-		
 		// Chamando a função testarVeiculo com diferentes tipos de veículos
-		System.out.println("\nTestando Carro:");
+		System.out.println("Testando Carro:");
 		testarVeiculo(meuCarro);
 		System.out.println("\nTestando Mota:");
 		testarVeiculo(minhaMota);
@@ -26,6 +22,12 @@ public class TesteVeiculo {
 		System.out.println("\nMétodos específicos da Mota:");
 		minhaMota.empinar();
 		minhaMota.frear();
-		minhaMota.frear("vrrrrrrrrrrrr");
+		minhaMota.frear("Screee!");
+		
+		// Testando objeto do tipo Veiculo
+		System.out.println("\nTestando Veículo:");
+		meuVeiculo.acelerar();
+		meuVeiculo.frear();
+
 	}
 }

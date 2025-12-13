@@ -33,7 +33,6 @@ public abstract class Veiculo {
 	}
 
 	//Sobrecarga do método fazerBarulho() para permitir diferentes comportamentos
-
 	public void fazerBarulho(int intensidade) {
 		for (int i = 0; i < intensidade; i++) {
 			fazerBarulho(); // Chama o fazerBarulho() padrão da subclasse

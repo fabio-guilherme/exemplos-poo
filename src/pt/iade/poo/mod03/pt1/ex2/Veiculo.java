@@ -9,20 +9,23 @@ public class Veiculo {
 	
 	// Construtor
 	public Veiculo(String marca, String modelo, String cor, int ano) {
-		super();
 		this.marca = marca;
 		this.modelo = modelo;
 		this.cor = cor;
 		this.ano = ano;
 	}
 	
-	// Construtor
+	// Construtor (sobrecarga/overload)
 	public Veiculo() {
 	}
 
-	// Getters e Setters
+	// Getters e Setters para os atributos
 	public String getMarca() {
 		return marca;
+	}
+	
+	public void setMarca(String marca) {
+		this.marca = marca;
 	}
 
 	public String getModelo() {
