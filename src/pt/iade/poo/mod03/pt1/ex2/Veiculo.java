@@ -3,9 +3,9 @@ package pt.iade.poo.mod03.pt1.ex2;
 public class Veiculo {
 	// Atributos
 	protected String marca;
-	protected String modelo;
-	protected String cor;
-	protected int ano;
+	private String modelo;
+	private String cor;
+	private int ano;
 	
 	// Construtor
 	public Veiculo(String marca, String modelo, String cor, int ano) {

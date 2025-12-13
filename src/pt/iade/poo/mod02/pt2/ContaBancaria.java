@@ -8,13 +8,13 @@ public class ContaBancaria {
 		this.saldo = saldoInicial;
 	}
 	
-	//Método para sacar dinheiro
-	public void sacar(double valor) {
+	//Método para levantar dinheiro
+	public void levantar(double valor) {
 		if (valor > 0 && valor <= saldo) {
 			saldo -= valor;
-			System.out.println("Saque de " + valor + " realizado com sucesso.");
+			System.out.println("Levantamento de " + valor + " realizado com sucesso.");
 		} else {
-			System.out.println("Saldo insuficiente para realizar o saque.");
+			System.out.println("Saldo insuficiente para realizar o levantamento.");
 		}
 	}
 
@@ -36,7 +36,7 @@ public class ContaBancaria {
 	//Exemplo de interação entre métodos e argumentos
 	public void transferir(ContaBancaria destino, double valor) {
 		if (valor > 0 && valor <= saldo) {
-			this.sacar(valor);
+			this.levantar(valor);
 			destino.depositar(valor);
 			System.out.println("Transferência de " + valor + " realizada com sucesso.");
 		} else {
